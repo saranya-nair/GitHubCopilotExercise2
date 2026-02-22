@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222b45;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+/* Navbar styling */
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+/* Card header styling */
+.card-header {
+  background: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%);
+  color: #fff !important;
+  font-weight: bold;
+}
+/* Table styling */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.table th {
+  background: #007bff;
+  color: #fff;
+}
+/* Button styling */
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+}
+/* Heading styling */
+h2, h1, h3 {
+  color: #ee0979;
+  font-weight: 700;
+}
+/* Link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ee0979;
+  text-decoration: underline;
+}
+/* Logo left alignment */
+.octofit-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+  height: 40px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
