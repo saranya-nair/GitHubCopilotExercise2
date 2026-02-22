@@ -1,0 +1,96 @@
+/* Octofit Tracker custom styles */
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222b45;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%);
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.table th {
+  background: #007bff;
+  color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #f2f6fc;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #28a745 0%, #a8ff78 100%);
+}
+
+.btn-info {
+  background: linear-gradient(90deg, #17a2b8 0%, #67b26f 100%);
+}
+
+.btn-warning {
+  background: linear-gradient(90deg, #ffc107 0%, #ffecb3 100%);
+}
+
+.btn-danger {
+  background: linear-gradient(90deg, #dc3545 0%, #ff6a00 100%);
+}
+
+h2, h1, h3 {
+  color: #ee0979;
+  font-weight: 700;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ee0979;
+  text-decoration: underline;
+}
+
+/* Logo left alignment */
+.octofit-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+  height: 40px;
+}
